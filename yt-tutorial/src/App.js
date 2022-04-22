@@ -13,6 +13,13 @@ function Header() {
   
 }
 
+function Footer(){
+  return (
+    <div>{(new Date().getFullYear())} Anderson development. All rights reserved</div>
+
+  )
+}
+
 
 function Page() {
   return (
@@ -25,20 +32,15 @@ function Page() {
         <li>Is maintained by Facebook </li>
         <li>Powers thousands of enterprise apps, including mobile apps. </li>     
       </ul>
+      <Footer />
     </div>
   )
 }
 
-function Footer(){
-  return (
-    <div>{(new Date().getFullYear())} Anderson development. All rights reserved</div>
-
-  )
-}
  
 
 function App() {
 
 }
 
-export {App, Page, Footer} ;
+export {App, Page} ;
