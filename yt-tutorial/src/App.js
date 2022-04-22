@@ -3,21 +3,27 @@ import './App.css';
 
 
 const page = (
-  <nav> 
-      <h1>Bob's Burgers</h1>
+  <div> 
+
+  <img src="../public/logo192.png" alt="react Logo" width="100" height="100"></img>
+
+      <h1>Fun Facts about React</h1>
       <ul> 
-        <li>Menu </li>
-        <li>About </li>
-        <li>Contact </li>
+        <li>Was first released in 2013 </li>
+        <li>Was originally created by Jordan Walke </li>
+        <li>Has over 100K stars on Github </li>
+        <li>Is maintained by Facebook </li>
+        <li>Powers thousands of enterprise apps, including mobile apps. </li>
       
       </ul>
 
-    </nav>
+    </div>
 )
 
 function App() {
   return (
     page
+   
   );
 }
 
